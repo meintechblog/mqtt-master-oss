@@ -1,0 +1,11 @@
+{
+  "status": 499,
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "meta": { "rc": "error", "msg": "api.err.MfaRequired" },
+    "data": [],
+    "mfaCookie": "deadbeef-0000-0000-0000-000000000000"
+  }
+}

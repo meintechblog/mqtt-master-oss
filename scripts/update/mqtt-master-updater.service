@@ -1,0 +1,23 @@
+[Unit]
+Description=MQTT Master Self-Updater (one-shot)
+After=network.target mqtt-master.service
+# Intentionally no Requires=/BindsTo=/PartOf= — the updater is a SIBLING of
+# mqtt-master.service. Because this unit runs in its own cgroup, the
+# `systemctl restart mqtt-master` call inside the script does NOT kill the
+# updater. Same load-bearing decision.
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/mqtt-master
+ExecStart=/opt/mqtt-master/scripts/update/run-update.sh
+User=root
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=mqtt-master-updater
+# Never auto-restart — the script handles its own rollback. Letting systemd
+# restart on failure would re-run the entire pipeline and double-rollback.
+Restart=no
+TimeoutStartSec=600
+
+[Install]
+WantedBy=multi-user.target

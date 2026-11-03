@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "name": "Gateway1",
+    "hostname": "Gateway1",
+    "version": "5.1.11.33023"
+  }
+}

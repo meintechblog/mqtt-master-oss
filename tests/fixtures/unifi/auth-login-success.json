@@ -1,0 +1,29 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "x-csrf-token": "1a2b3c4d-aaaa-bbbb-cccc-deadbeef0001",
+    "x-updated-csrf-token": "1a2b3c4d-aaaa-bbbb-cccc-deadbeef0001",
+    "set-cookie": "TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmaXh0dXJlIiwiaWF0IjoxNzQ3MDAwMDAwLCJleHAiOjE3NDk1OTIwMDB9.signature_fixture; HttpOnly; Secure; SameSite=None; Partitioned; Path=/"
+  },
+  "body": {
+    "meta": { "rc": "ok" },
+    "data": [
+      {
+        "unique_id": "0000aaaa-0000-bbbb-0000-cccccccccccc",
+        "first_name": "MQTT",
+        "last_name": "Master",
+        "username": "mqtt-master",
+        "email": "mqtt-master@example.com",
+        "only_local_account": true,
+        "local_account_exist": true,
+        "role": "admin",
+        "roles": ["Super Admin"],
+        "permissions": {
+          "network.management": ["admin"]
+        },
+        "isOwner": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[Unit]
+Description=MQTT Master
+After=network.target mosquitto.service
+Wants=mosquitto.service
+
+[Service]
+Type=simple
+# Runs as root so the self-updater can be triggered via `systemctl start` from
+# the API endpoint without polkit/sudo plumbing. The whole stack is already
+# inside an unprivileged LXC container, so the blast radius stays bounded.
+User=root
+WorkingDirectory=/opt/mqtt-master
+ExecStart=/usr/bin/node server/index.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+# ENCRYPTION_SECRET; without it the service refuses to start.
+# No leading '-': a missing file is a unit error, not a silent start.
+EnvironmentFile=/etc/mqtt-master/env
+
+[Install]
+WantedBy=multi-user.target

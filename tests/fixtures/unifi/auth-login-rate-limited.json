@@ -1,0 +1,14 @@
+{
+  "status": 429,
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "meta": {
+      "rc": "error",
+      "code": "AUTHENTICATION_FAILED_LIMIT_REACHED",
+      "msg": "api.err.LoginLimitReached"
+    },
+    "data": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mqtt": { "broker": "mqtt://localhost:1883" },
+  "web": { "port": 80 },
+  "logLevel": "info",
+  "pluginDir": "/opt/mqtt-master/plugins",
+  "topicPrefix": "mqtt-master"
+}

@@ -1,0 +1,230 @@
+{
+  "meta": { "rc": "ok" },
+  "data": [
+    {
+      "_id": "5f0000000000000000000001",
+      "mac": "02:00:00:00:00:fa",
+      "type": "usw",
+      "model": "USPM16P",
+      "shortname": "USPM16P",
+      "name": "Main",
+      "version": "7.4.1.16850",
+      "ip": "192.0.2.197",
+      "site_id": "5f0000000000000000000002",
+      "state": 1,
+      "port_overrides": [
+        {
+          "port_idx": 5,
+          "poe_mode": "off",
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "port_name": "Camera-VLAN",
+          "port_security_enabled": false
+        },
+        {
+          "port_idx": 8,
+          "poe_mode": "auto",
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "port_name": "Office-AP",
+          "full_duplex": true
+        }
+      ],
+      "port_table": [
+        {
+          "port_idx": 1,
+          "name": "Port 1",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true,
+          "is_uplink": true
+        },
+        {
+          "port_idx": 2,
+          "name": "Port 2",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 3,
+          "name": "Port 3",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 4,
+          "name": "Port 4",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 5,
+          "name": "Camera-VLAN",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "off",
+          "enable": true
+        },
+        {
+          "port_idx": 6,
+          "name": "Port 6",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 7,
+          "name": "Port 7",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 8,
+          "name": "Office-AP",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 9,
+          "name": "Port 9",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 10,
+          "name": "Port 10",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 11,
+          "name": "Port 11",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 12,
+          "name": "Port 12",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 13,
+          "name": "Port 13",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 14,
+          "name": "Port 14",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 15,
+          "name": "Port 15",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 16,
+          "name": "Port 16",
+          "media": "GE",
+          "port_poe": true,
+          "poe_caps": 3,
+          "portconf_id": "5ee12ed5da6ad50006e3176f",
+          "up": false,
+          "poe_mode": "auto",
+          "enable": true
+        },
+        {
+          "port_idx": 17,
+          "name": "SFP+ 17",
+          "media": "SFP+",
+          "port_poe": false,
+          "poe_caps": 0,
+          "up": false,
+          "enable": true
+        },
+        {
+          "port_idx": 18,
+          "name": "SFP+ 18",
+          "media": "SFP+",
+          "port_poe": false,
+          "poe_caps": 0,
+          "up": false,
+          "enable": true
+        }
+      ]
+    }
+  ]
+}
